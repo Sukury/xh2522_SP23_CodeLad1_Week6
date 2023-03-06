@@ -1,5 +1,4 @@
-# FILL IN INFO ABOUT YOUR GAME HERE. 
+# Remake the scene and update the level design
 
-DO NOT LEAVE IT LIKE THIS!!!
-
-Please? Please, give me content. I'm begging you. It's not that hard. Thanks.
+reflect the 'switch', for loop, 'char[]', list function in my game design
+I also add the door and the box function in this mini game
