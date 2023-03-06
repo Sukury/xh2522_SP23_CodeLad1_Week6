@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6916381123181536940
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6916381123181536943}
+  - component: {fileID: 6916381123181536942}
+  - component: {fileID: 6916381123181536941}
+  m_Layer: 0
+  m_Name: GameManagerHolder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6916381123181536943
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6916381123181536940}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.17212394, y: 3.7323632, z: -0.099965125}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6916381123181536942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6916381123181536940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b89cee92f11f1e45969e135ce7309f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6916381123181536941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6916381123181536940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b533ef8452c634b4099573eca5d07413, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 7063834838198447906, guid: 7838ec664a5cc4d82ab5dd5dc78aa0cd, type: 3}
+  wall: {fileID: 740727066458031729, guid: c180816b9d2ac4fb0a25c8f3de597a1a, type: 3}
+  door: {fileID: 7380277199163887814, guid: b9561ad9249638c40a1d3fcc1c0677c8, type: 3}
+  nextLevel: {fileID: 64099808312264826, guid: a5a5ca0e6f3648b44aacb43deea59594, type: 3}
+  danger: {fileID: 4276556140984953490, guid: b4895307a5417cf46aba6ee7e4dc2fb7, type: 3}
+  box: {fileID: 2481326627615062421, guid: e14cc70682f21f145b9dbd66e324ebb8, type: 3}
+  xoffset: -9
+  yoffset: 5
+  playerStartPos: {x: 0, y: 0}
+  BoxStartPos: {x: 0, y: 0}
